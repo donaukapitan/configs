@@ -1,0 +1,36 @@
+## Startup
+
+export EDITOR=vim
+export PAGER=most
+export VISUAL=geany
+export RANGER_LOAD_DEFAULT_RC=FALSE
+
+PATH=${PATH}:${HOME}/bin
+
+# merge X resources
+xrdb -merge  $HOME/.Xresources
+
+# disable beep
+xset -b
+
+# Activate NumLock
+# numlockx &
+
+# NumLock ON
+numlockx on
+
+# screensaver
+xscreensaver -no-splash &
+
+# set background
+feh --bg-center $HOME/wp/SR_hdr.png
+
+# Dropbox
+dropbox start &
+
+# MPD
+# mpd &
+
+# Network
+# wicd-client --tray &
+nm-applet --sm-disable &

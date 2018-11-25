@@ -1,0 +1,61 @@
+{
+    "editor.rulers": [
+        80
+    ],
+    "editor.renderWhitespace": "boundary",
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": false,
+    "editor.fontSize": 14,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.autoIndent": true,
+    "editor.quickSuggestionsDelay": 0,
+    "terminal.external.linuxExec": "termite",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    // "markdownlint.config": {
+    //     "MD013": false,     // Line length
+    //     "MD022": false,     // Headers should be surrounded by blank lines
+    //     "MD024": false,     // Multiple headers with the same content
+    //     "MD033": false      // Inline HTML
+    // },
+    "debug.inlineValues": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": false,
+    "python.formatting.provider": "autopep8",
+    "python.venvFolders": [
+        "envs",
+        ".pyenv",
+        ".direnv",
+        "venv"
+    ],
+    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+    "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
+    "workbench.commandPalette.preserveInput": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "gitlens.keymap": "chorded",
+    "vsicons.dontShowNewVersionMessage": true,
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers"
+    ],
+    "gitlens.codeLens.enabled": false,
+    "gitlens.historyExplorer.enabled": true,
+    "breadcrumbs.enabled": true,
+}
